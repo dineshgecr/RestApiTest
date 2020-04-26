@@ -12,6 +12,7 @@ public class ExtractNodeText {
 	@Test
 	public void verifyCityINJsonResponse()
 	{
+		//RestApi Testing
 		RestAssured.baseURI = "http://restapi.demoqa.com/utilities/weather/city";
 		RequestSpecification httpRequest = RestAssured.given();
 		Response response = httpRequest.get("/Bangalore");
